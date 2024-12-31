@@ -1,0 +1,22 @@
+/* Styles for devices with width 768px or smaller */
+@media (max-width: 768px) {
+  body {
+    background-color: lightgray;
+    color: blue;
+  }
+}
+
+/* Styles for devices with width 1200px or larger */
+@media (min-width: 1200px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+/* Hide the sidebar for screens smaller than 600px */
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
