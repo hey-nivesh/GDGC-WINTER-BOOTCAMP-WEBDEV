@@ -4,9 +4,19 @@ console.log("Hello World!");
 
 //1. Variables
 var a = 10;
-var b = 10;
+var b = 20;
 var c = a + b;
-console.log(c == 30);
+console.log(c);
+//let vs const vs var
+//let: The let keyword is used to declare a block-scoped variable. The value of a let variable can be changed.
+//const: The const keyword is used to declare a block-scoped constant. The value of a const variable cannot be changed.
+//var: The var keyword is used to declare a variable with function scope. The value of a var variable can be changed.
+let x = 10;
+x = 20; // Valid
+const y = 10;
+y = 20; // Invalid
+var z = 10;
+z = 20; // Valid
 
 //2. Functions
 function add(a, b) {
